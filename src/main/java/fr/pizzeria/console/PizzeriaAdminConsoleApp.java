@@ -61,7 +61,11 @@ public class PizzeriaAdminConsoleApp {
 		 		System.out.println("\n Veuillez saisir le prix : ");
 		 		repPrix = Double.parseDouble(questionUser.next()) ;
 		 		
-		 		nbTab ++;
+		 		if(nbTab != 0)
+		 		{
+			 		nbTab ++;	
+		 		}
+
 		 		pizzaArray[nbTab] = new Pizza(nbTab,repCode,repLibelle,repPrix);
 		 		
 		 		
@@ -89,6 +93,7 @@ public class PizzeriaAdminConsoleApp {
 		 			{
 		 				if (pizzaArray[i].getCode().equals(repCode))
 		 				{
+		 					nbTab --;
 		 					pizzaArray[i] = new Pizza(nbTab,repCode,repLibelle,repPrix);
 		 				}
 		 			}	 			
