@@ -19,27 +19,10 @@ public class PizzeriaAdminConsoleApp extends PizzaMemDao {
 		while(rep != 99)
 		{
 			rep = questionUser.nextInt();
-		 	if (rep == 1)
-		 	{
-		 		msf.getInstance(rep).executeUC(dao);
-		 		menu();
-		 	}
-		 	if (rep== 2)
-		 	{	 		
-		 		msf.getInstance(rep).executeUC(dao);
-		 		menu();
-		 	}
-		 	if (rep == 3)
-		 	{
-		 		msf.getInstance(rep).executeUC(dao);		 		
-		 		menu();
-		 	}
-		 	if (rep == 4)
-		 	{		 		
-		 		msf.getInstance(rep).executeUC(dao);
-		 		menu();
-		 	}
-		 	
+		
+		 	msf.getInstance(rep).executeUC(dao);
+		 	menu();
+		 		
 		 	if 	(rep != 1 && rep != 2 && rep != 3 && rep != 4 && rep != 99)
 		 	{
 		 		System.out.println("\n retapper une valeur correct \n");
