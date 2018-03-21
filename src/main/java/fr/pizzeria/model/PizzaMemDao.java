@@ -73,17 +73,17 @@ public void saveNewPizza(Pizza pizza)
 
 	@Override
 	public boolean pizzaExists(String codePizza) {
-		for(int i=0;i < liste.size(); i++)
- 		{
- 			if(liste.get(i) != null)
- 			{
- 				if (liste.get(i).getCode().equals(codePizza))
- 				{
- 					return true;
- 				}
- 			}	
- 		}
-		return false;
+//		for(int i=0;i < liste.size(); i++)
+// 		{
+// 			if(liste.get(i) != null)
+// 			{
+// 				if (liste.get(i).getCode().equals(codePizza))
+// 				{
+// 					return true;
+// 				}
+// 			}	
+// 		}
+		return findPizzaByCode(codePizza)!=null;
 	}
 	
 	
