@@ -1,10 +1,8 @@
 package fr.pizzeria.console;
+import fr.pizzeria.service.*;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
-import fr.pizzeria.model.Pizza;
 import fr.pizzeria.model.PizzaMemDao;
 
 public class PizzeriaAdminConsoleApp extends PizzaMemDao {
@@ -22,7 +20,12 @@ public class PizzeriaAdminConsoleApp extends PizzaMemDao {
 		pizzaArray[7] = new Pizza(7,"IND","L’indienne",14.00);*/
 		
 		
-		PizzaMemDao pizza = new PizzaMemDao();
+		ListerPizzasService lps = new ListerPizzasService();
+		AjouterPizzaService aps = new AjouterPizzaService();
+		ModifierPizzaService mps = new ModifierPizzaService();
+		SupprimerPizzaService sps = new SupprimerPizzaService();
+		
+		PizzaMemDao dao = new PizzaMemDao();
 		
 		
 		
@@ -31,84 +34,29 @@ public class PizzeriaAdminConsoleApp extends PizzaMemDao {
 		menu();
 		Scanner questionUser = new Scanner(System.in) ;
 	 	int rep = 0;
-	 	String repCode = "", repLibelle = "", repNouvCode = "";
-	 	double repPrix = 0.0;
+
 	 	
 		while(rep != 99)
 		{
 			rep = questionUser.nextInt();
 		 	if (rep == 1)
 		 	{
-		 		System.out.println("\n Lister les pizzas \n");
-		 		
-		 		
-/*		 		for(int i=0; i < liste.size() ; i++)
-		 		{
-		 			if(liste.get(i) != null)
-		 			{
-		 				System.out.println(liste.get(i).getCode() + "->" + liste.get(i).getLibelle() + "(" +  liste.get(i).getPrix() + "€)");
-		 			}	 			
-		 		}*/
-				for(int i=0; i < pizza.findAllPizzas().size() ; i++)
-		 		{
-		 			if(pizza.findAllPizzas().get(i) != null)
-		 			{
-		 				System.out.println(pizza.findAllPizzas().get(i).getCode() + "->" + pizza.findAllPizzas().get(i).getLibelle() + "(" +  pizza.findAllPizzas().get(i).getPrix() + "€)");
-		 			}	 			
-		 		}
-		 		
-
-		 		
-		 		System.out.println("\n");
+		 		lps.executeUC(dao);
 		 		menu();
 		 	}
 		 	if (rep== 2)
-		 	{
-
-		 		
-		 		System.out.println("\n Ajout d’une nouvelle pizza \n ");
-		 		
-		 		System.out.println("\n Veuillez saisir le code : ");
-		 		repCode = questionUser.next();
-		 		System.out.println("\n Veuillez saisir le nom (sans espace) : ");
-		 		repLibelle = questionUser.next();
-		 		System.out.println("\n Veuillez saisir le prix : ");
-		 		repPrix = Double.parseDouble(questionUser.next()) ;
-
-		 	
-		 		pizza.saveNewPizza(new Pizza(pizza.nbTab,repCode,repLibelle,repPrix));
-		 		
-		 		
-		 		
+		 	{	 		
+		 		aps.executeUC(dao);
 		 		menu();
 		 	}
 		 	if (rep == 3)
 		 	{
-		 		System.out.println("\n Mise à jour d’une pizza \n");
-		 		
-		 		System.out.println("\n Veuillez choisir le code de la pizza à modifier \n");
-		 		repNouvCode = questionUser.next();
-		 		
-		 		System.out.println("\n Veuillez saisir le nouveau code : ");
-		 		repCode = questionUser.next();
-		 		System.out.println("\n Veuillez saisir le nouveau nom (sans espace) : ");
-		 		repLibelle = questionUser.next();
-		 		System.out.println("\n Veuillez saisir le nouveau prix : ");
-		 		repPrix = Double.parseDouble(questionUser.next()) ;
-		 		
-		 		pizza.updatePizza(repNouvCode, new Pizza(pizza.nbTab,repCode,repLibelle,repPrix));
-		 		
+		 		mps.executeUC(dao);		 		
 		 		menu();
 		 	}
 		 	if (rep == 4)
-		 	{
-		 		System.out.println("\n Suppression d’une pizza \n");
-		 		
-		 		System.out.println("\n Veuillez choisir le code de la pizza à supprimer \n");
-		 		repCode = questionUser.next();
-		 		
-		 		pizza.deletePizza(repCode);
-		 		
+		 	{		 		
+		 		sps.executeUC(dao);
 		 		menu();
 		 	}
 		 	
@@ -126,7 +74,7 @@ public class PizzeriaAdminConsoleApp extends PizzaMemDao {
 	
 	public static void menu()
 	{
-		System.out.println("***** Pizeeria Administration ***** \n");
+		System.out.println("***** Pizzeria Administration ***** \n");
 		
 		System.out.println("1. Lister les pizzas ");
 		System.out.println("2. Ajouter une nouvelle pizza ");

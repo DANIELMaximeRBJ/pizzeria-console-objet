@@ -25,7 +25,7 @@ public class PizzaMemDao implements IPizzaDao{
 	}
 
 	@Override
-	public void saveNewPizza(Pizza pizza) 
+public void saveNewPizza(Pizza pizza) 
 	{
 		for(int i=0;i < liste.size(); i++)
  		{
