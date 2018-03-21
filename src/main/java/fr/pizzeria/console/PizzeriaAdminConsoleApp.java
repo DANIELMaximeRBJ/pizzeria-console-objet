@@ -1,5 +1,6 @@
 package fr.pizzeria.console;
 import fr.pizzeria.service.*;
+import fr.pizzeria.exception.*;
 
 import java.util.Scanner;
 
@@ -19,8 +20,16 @@ public class PizzeriaAdminConsoleApp extends PizzaMemDao {
 		while(rep != 99)
 		{
 			rep = questionUser.nextInt();
-		
-		 	msf.getInstance(rep).executeUC(dao);
+			
+	 		try 
+	 	 	{
+	 			msf.getInstance(rep).executeUC(dao);
+	 		} 
+	 		catch (StockageException e)
+	 		{
+	 			System.out.println(e.getMessage());
+	 		}
+		 	
 		 	menu();
 		 		
 		 	if 	(rep != 1 && rep != 2 && rep != 3 && rep != 4 && rep != 99)

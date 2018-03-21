@@ -1,7 +1,9 @@
 package fr.pizzeria.model;
 
 import java.util.ArrayList;
+
 import java.util.List;
+
 
 public class PizzaMemDao implements IPizzaDao{
 	private List<Pizza> liste = new ArrayList<>();
@@ -39,7 +41,8 @@ public void saveNewPizza(Pizza pizza)
 	}
 
 	@Override
-	public void updatePizza(String codePizza, Pizza pizza) {
+	public void updatePizza(String codePizza, Pizza pizza)
+	{
  					nbTab --;
  					
 	 				liste.remove(findPizzaByCode(codePizza));
@@ -48,8 +51,9 @@ public void saveNewPizza(Pizza pizza)
 	}
 
 	@Override
-	public void deletePizza(String codePizza) {
-	 				liste.remove(findPizzaByCode(codePizza));
+	public void deletePizza(String codePizza) 
+	{
+	 	liste.remove(findPizzaByCode(codePizza));
 	}
 
 	@Override
