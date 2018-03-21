@@ -1,14 +1,17 @@
 package fr.pizzeria.console;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 import fr.pizzeria.model.Pizza;
+import fr.pizzeria.model.PizzaMemDao;
 
-public class PizzeriaAdminConsoleApp {
+public class PizzeriaAdminConsoleApp extends PizzaMemDao {
 	
 	public static void main(String[] args) {
 		
-		Pizza[] pizzaArray = new Pizza[100];
+/*		Pizza[] pizzaArray = new Pizza[100];
 		pizzaArray[0] = new Pizza(0,"PEP","Pépéronie",12.50);
 		pizzaArray[1] = new Pizza(1,"MAR","Margherita",14.00);
 		pizzaArray[2] = new Pizza(2,"REIN","La Reine",11.50);
@@ -16,12 +19,18 @@ public class PizzeriaAdminConsoleApp {
 		pizzaArray[4] = new Pizza(4,"CAN","La cannibale",12.50);
 		pizzaArray[5] = new Pizza(5,"SAV","La savoyarde",13.00);
 		pizzaArray[6] = new Pizza(6,"ORI","L’orientale",13.50);
-		pizzaArray[7] = new Pizza(7,"IND","L’indienne",14.00);
+		pizzaArray[7] = new Pizza(7,"IND","L’indienne",14.00);*/
 		
+		
+		PizzaMemDao pizza = new PizzaMemDao();
+		
+		
+		
+    
 		
 		menu();
 		Scanner questionUser = new Scanner(System.in) ;
-	 	int rep = 0, nbTab =0 ;
+	 	int rep = 0;
 	 	String repCode = "", repLibelle = "", repNouvCode = "";
 	 	double repPrix = 0.0;
 	 	
@@ -32,25 +41,30 @@ public class PizzeriaAdminConsoleApp {
 		 	{
 		 		System.out.println("\n Lister les pizzas \n");
 		 		
-		 		for(int i=0;i < (pizzaArray.length - 1); i++)
+		 		
+/*		 		for(int i=0; i < liste.size() ; i++)
 		 		{
-		 			if(pizzaArray[i] != null)
+		 			if(liste.get(i) != null)
 		 			{
-		 				System.out.println(pizzaArray[i].getCode() + "->" + pizzaArray[i].getLibelle() + "(" +  pizzaArray[i].getPrix() + "€)");
+		 				System.out.println(liste.get(i).getCode() + "->" + liste.get(i).getLibelle() + "(" +  liste.get(i).getPrix() + "€)");
+		 			}	 			
+		 		}*/
+				for(int i=0; i < pizza.findAllPizzas().size() ; i++)
+		 		{
+		 			if(pizza.findAllPizzas().get(i) != null)
+		 			{
+		 				System.out.println(pizza.findAllPizzas().get(i).getCode() + "->" + pizza.findAllPizzas().get(i).getLibelle() + "(" +  pizza.findAllPizzas().get(i).getPrix() + "€)");
 		 			}	 			
 		 		}
+		 		
+
+		 		
 		 		System.out.println("\n");
 		 		menu();
 		 	}
 		 	if (rep== 2)
 		 	{
-		 		for(int i=0;i < (pizzaArray.length - 1); i++)
-		 		{
-		 			if(pizzaArray[i] != null)
-		 			{
-		 				nbTab ++;
-		 			}	 			
-		 		}
+
 		 		
 		 		System.out.println("\n Ajout d’une nouvelle pizza \n ");
 		 		
@@ -60,14 +74,9 @@ public class PizzeriaAdminConsoleApp {
 		 		repLibelle = questionUser.next();
 		 		System.out.println("\n Veuillez saisir le prix : ");
 		 		repPrix = Double.parseDouble(questionUser.next()) ;
-		 		
-		 		if(nbTab != 0)
-		 		{
-			 		nbTab ++;	
-		 		}
 
-		 		pizzaArray[nbTab] = new Pizza(nbTab,repCode,repLibelle,repPrix);
-		 		
+		 	
+		 		pizza.saveNewPizza(new Pizza(pizza.nbTab,repCode,repLibelle,repPrix));
 		 		
 		 		
 		 		
@@ -87,17 +96,7 @@ public class PizzeriaAdminConsoleApp {
 		 		System.out.println("\n Veuillez saisir le nouveau prix : ");
 		 		repPrix = Double.parseDouble(questionUser.next()) ;
 		 		
-		 		for(int i=0;i < (pizzaArray.length - 1); i++)
-		 		{
-		 			if(pizzaArray[i] != null)
-		 			{
-		 				if (pizzaArray[i].getCode().equals(repCode))
-		 				{
-		 					nbTab --;
-		 					pizzaArray[i] = new Pizza(nbTab,repCode,repLibelle,repPrix);
-		 				}
-		 			}	 			
-		 		}
+		 		pizza.updatePizza(repNouvCode, new Pizza(pizza.nbTab,repCode,repLibelle,repPrix));
 		 		
 		 		menu();
 		 	}
@@ -108,20 +107,7 @@ public class PizzeriaAdminConsoleApp {
 		 		System.out.println("\n Veuillez choisir le code de la pizza à supprimer \n");
 		 		repCode = questionUser.next();
 		 		
-		 		for(int i=0;i < (pizzaArray.length - 1); i++)
-		 		{
-		 			if(pizzaArray[i] != null)
-		 			{
-		 				if (pizzaArray[i].getCode().equals(repCode))
-		 				{
-			 				pizzaArray[i] = pizzaArray[i+1];
-		 				}
-		 			}	
-	 				for(int j=0;j < (pizzaArray.length - 1); j++)
- 			 		{
-	 					pizzaArray[i] = pizzaArray[i+1];
- 			 		}
-		 		}
+		 		pizza.deletePizza(repCode);
 		 		
 		 		menu();
 		 	}
