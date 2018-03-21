@@ -10,6 +10,7 @@ public class PizzeriaAdminConsoleApp extends PizzaMemDao {
 	
 	public static void main(String[] args) {
 		PizzaMemDao dao = new PizzaMemDao();
+		@SuppressWarnings("resource")
 		Scanner questionUser = new Scanner(System.in) ;
 			
 		menu();	

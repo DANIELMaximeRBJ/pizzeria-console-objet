@@ -1,27 +1,36 @@
 package fr.pizzeria.model;
 
+import fr.pizzeria.console.CategoriePizza;
+
 public class Pizza {
 
 	private int id; 
 	private String code, libelle;
 	private double prix;
+	private CategoriePizza cp;
 	
-	public Pizza(String code, String libelle, double prix)
+	public Pizza(String code, String libelle, double prix, CategoriePizza cp)
 	{
 		this.code = code;
 		this.libelle = libelle;
 		this.prix = prix;
 		id = 123456789;
+		this.cp = cp;
 	}
 	
-	public Pizza(int id,String code, String libelle, double prix)
+	public Pizza(int id,String code, String libelle, double prix, CategoriePizza cp)
 	{
 		this.id = id;
 		this.code = code;
 		this.libelle = libelle;
 		this.prix = prix;
+		this.cp = cp;
 	}
 	
+	public String toString()
+	{
+		return this.cp.getCategoriepizza();
+	}
 /*	public static void main(String[] args) {
 		Pizza monta = new Pizza("17","montagnardes",9.85);
 		System.out.println("Id :" + monta.id);

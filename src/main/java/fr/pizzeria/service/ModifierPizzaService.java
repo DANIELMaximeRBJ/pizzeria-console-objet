@@ -1,5 +1,6 @@
 package fr.pizzeria.service;
 
+import fr.pizzeria.console.CategoriePizza;
 import fr.pizzeria.exception.UpdatePizzaException;
 import fr.pizzeria.model.Pizza;
 import fr.pizzeria.model.PizzaMemDao;
@@ -21,14 +22,13 @@ public class ModifierPizzaService extends MenuService
  		repLibelle = questionUser.next();
  		System.out.println("\n Veuillez saisir le nouveau prix : ");
  		repPrix = Double.parseDouble(questionUser.next());
+ 		System.out.println("\n Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON ");
+ 		repCP = questionUser.next();
+ 		
  		
  		if(!dao.pizzaExists(repNouvCode))
 		{
 			throw new UpdatePizzaException("code non existant dans la liste");
-		}
- 		if(dao.pizzaExists(repCode))
-		{
-			throw new UpdatePizzaException("code deja existant dans la liste");
 		}
 		if(repPrix < 0)
 		{
@@ -36,7 +36,7 @@ public class ModifierPizzaService extends MenuService
 		}
  		
  		
- 		dao.updatePizza(repNouvCode, new Pizza(repCode,repLibelle,repPrix));
+ 		dao.updatePizza(repNouvCode, new Pizza(repCode,repLibelle,repPrix,CategoriePizza.valueOf(repCP)));
  		
 
 
