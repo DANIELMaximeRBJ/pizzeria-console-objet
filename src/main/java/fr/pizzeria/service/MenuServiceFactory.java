@@ -7,22 +7,22 @@ public class MenuServiceFactory {
 	{
 		if (choice == 1)
 	 	{
-			ListerPizzasService lps = new ListerPizzasService();
+			MenuService lps = new ListerPizzasService();
 			return lps;
 	 	}
 		if (choice == 2)
 	 	{
-			AjouterPizzaService aps = new AjouterPizzaService();
+			MenuService aps = new AjouterPizzaService();
 			return aps;
 	 	}
 		if (choice == 3)
 	 	{
-			ModifierPizzaService mps = new ModifierPizzaService();
+			MenuService mps = new ModifierPizzaService();
 			return mps;
 	 	}
 		if (choice == 4)
 	 	{
-			SupprimerPizzaService sps = new SupprimerPizzaService();
+			MenuService sps = new SupprimerPizzaService();
 			return sps;
 	 	}		
 		return null;		
