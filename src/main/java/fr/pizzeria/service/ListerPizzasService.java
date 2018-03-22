@@ -13,7 +13,8 @@ public class ListerPizzasService extends MenuService {
  		{
  			if(dao.findAllPizzas().get(i) != null)
  			{
- 				System.out.println(dao.findAllPizzas().get(i).getCode() + "->" + dao.findAllPizzas().get(i).getLibelle() + "(" +  dao.findAllPizzas().get(i).getPrix() + "€) (" + dao.findAllPizzas().get(i).toString() + ")");
+ 				//System.out.println(dao.findAllPizzas().get(i).getCode() + "->" + dao.findAllPizzas().get(i).getLibelle() + "(" +  dao.findAllPizzas().get(i).getPrix() + "€) (" + dao.findAllPizzas().get(i).toString() + ")");
+ 				System.out.println(dao.findAllPizzas().get(i).toString());
  			}	 			
  		}
 	}

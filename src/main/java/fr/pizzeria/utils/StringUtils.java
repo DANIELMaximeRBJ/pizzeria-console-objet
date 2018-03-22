@@ -1,0 +1,52 @@
+package fr.pizzeria.utils;
+
+
+import java.lang.reflect.Field;
+
+import fr.pizzeria.model.Pizza;
+
+public class StringUtils {
+	public static String getAnnotation(Object pizza){
+		Class<Pizza> cp = Pizza.class;
+		Field[] attribut = cp.getDeclaredFields();
+		String chaine = "";
+		try
+		{
+			for(Field  attr : attribut)
+			{
+				attr.setAccessible(true);
+				if(attr.isAnnotationPresent(ToString.class))
+				{										
+					
+					
+					ToString annotation = attr.getAnnotation(ToString.class);
+					
+					boolean uppercase = annotation.upperCase();
+					String separateur = annotation.separateur();
+
+					
+
+					Object value = attr.get(pizza);
+					
+					
+					if(uppercase == true)
+					{
+						chaine += value.toString().toUpperCase()+ separateur;
+					}
+					else
+					{
+						chaine += value.toString().toLowerCase()+ separateur;
+					}
+				}
+			}
+		}
+		catch (Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+		
+		return chaine;
+	}
+
+}
+//Can not set java.lang.String field fr.pizzeria.model.Pizza.code to fr.pizzeria.utils.StringUtils
