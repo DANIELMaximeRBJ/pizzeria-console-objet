@@ -1,16 +1,17 @@
 package fr.pizzeria.service;
 
 import fr.pizzeria.console.CategoriePizza;
+import fr.pizzeria.exception.StockageException;
 import fr.pizzeria.exception.UpdatePizzaException;
 import fr.pizzeria.model.Pizza;
 import fr.pizzeria.model.PizzaMemDao;
+import fr.pizzeria.utils.Validator;
 
 
 public class ModifierPizzaService extends MenuService 
 {
 
-
-	public void executeUC(PizzaMemDao dao) throws UpdatePizzaException   {
+	public void executeUC(PizzaMemDao dao) throws StockageException   {
 		System.out.println("\n Mise à jour d’une pizza \n");
  		
  		System.out.println("\n Veuillez choisir le code de la pizza à modifier \n");
@@ -30,10 +31,11 @@ public class ModifierPizzaService extends MenuService
 		{
 			throw new UpdatePizzaException("code non existant dans la liste");
 		}
-		if(repPrix < 0)
-		{
-			throw new UpdatePizzaException("Prix inférieur à zero");
-		}
+ 		
+
+ 		Validator.check(dao);
+ 		
+		
  		
  		
  		dao.updatePizza(repNouvCode, new Pizza(repCode,repLibelle,repPrix,CategoriePizza.valueOf(repCP)));

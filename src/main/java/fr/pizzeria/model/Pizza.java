@@ -2,6 +2,7 @@ package fr.pizzeria.model;
 
 
 import fr.pizzeria.console.CategoriePizza;
+import fr.pizzeria.utils.Rule;
 import fr.pizzeria.utils.StringUtils;
 import fr.pizzeria.utils.ToString;
 
@@ -16,6 +17,7 @@ public class Pizza {
 	private String libelle;
 	
 	@ToString(separateur = "€) (")
+	@Rule()
 	private double prix;
 	
 	@ToString(separateur = ")",upperCase = false)

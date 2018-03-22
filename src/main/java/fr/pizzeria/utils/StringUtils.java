@@ -6,8 +6,8 @@ import java.lang.reflect.Field;
 import fr.pizzeria.model.Pizza;
 
 public class StringUtils {
-	public static String getAnnotation(Object pizza){
-		Class<Pizza> cp = Pizza.class;
+	public static String getAnnotation(Object o){
+		Class<?> cp = o.getClass();
 		Field[] attribut = cp.getDeclaredFields();
 		String chaine = "";
 		try
@@ -26,7 +26,7 @@ public class StringUtils {
 
 					
 
-					Object value = attr.get(pizza);
+					Object value = attr.get(o);
 					
 					
 					if(uppercase == true)
@@ -49,4 +49,3 @@ public class StringUtils {
 	}
 
 }
-//Can not set java.lang.String field fr.pizzeria.model.Pizza.code to fr.pizzeria.utils.StringUtils
