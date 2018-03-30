@@ -1,24 +1,27 @@
 package fr.pizzeria.service;
 
 
+
 import fr.pizzeria.console.CategoriePizza;
 import fr.pizzeria.exception.SavePizzaException;
 import fr.pizzeria.model.Pizza;
 import fr.pizzeria.model.PizzaMemDao;
 
 public class AjouterPizzaService extends MenuService {
-	
+
+
 	public void executeUC(PizzaMemDao dao) throws SavePizzaException 
 	{
-		System.out.println("\n Ajout d’une nouvelle pizza \n ");
+		LOG.info("\n Ajout d’une nouvelle pizza \n ");
+		
  		
- 		System.out.println("\n Veuillez saisir le code : ");
+		LOG.info("\n Veuillez saisir le code : ");
  		repCode = questionUser.next();
- 		System.out.println("\n Veuillez saisir le nom (sans espace) : ");
+ 		LOG.info("\n Veuillez saisir le nom (sans espace) : ");
  		repLibelle = questionUser.next();
- 		System.out.println("\n Veuillez saisir le prix : ");
+ 		LOG.info("\n Veuillez saisir le prix : ");
  		repPrix = Double.parseDouble(questionUser.next()) ;
- 		System.out.println("\n Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON ");
+ 		LOG.info("\n Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON ");
  		repCP = questionUser.next();
  		CategoriePizza cp = CategoriePizza.valueOf(repCP);
 	

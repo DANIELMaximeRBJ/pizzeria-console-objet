@@ -2,11 +2,10 @@ package fr.pizzeria.utils;
 
 import java.lang.reflect.Field;
 
-
 import fr.pizzeria.exception.UpdatePizzaException;
 
 public class Validator {
-	public static void check(Object o){
+	public static void check(Object o) {
 		Class<?> cp = o.getClass();
 		Field[] attribut = cp.getDeclaredFields();
 		try

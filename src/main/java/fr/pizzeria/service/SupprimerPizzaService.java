@@ -8,9 +8,9 @@ public class SupprimerPizzaService extends MenuService{
 
 	public void executeUC(PizzaMemDao dao) throws DeletePizzaException
 	{
-		System.out.println("\n Suppression d’une pizza \n");
+		LOG.info("\n Suppression d’une pizza \n");
  		
- 		System.out.println("\n Veuillez choisir le code de la pizza à supprimer \n");
+		LOG.info("\n Veuillez choisir le code de la pizza à supprimer \n");
  		repCode = questionUser.next();
 
  		if(!dao.pizzaExists(repCode))

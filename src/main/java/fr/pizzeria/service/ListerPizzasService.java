@@ -11,7 +11,7 @@ public class ListerPizzasService extends MenuService {
 	public void executeUC(PizzaMemDao dao)
 	{
 	PDFgenerateur pg = new PDFgenerateur();
- 		System.out.println("\n Lister les pizzas \n");
+	LOG.info("\n Lister les pizzas \n");
  		try {
  			pg.init();
 		} catch (DocumentException e1) {
@@ -23,8 +23,7 @@ public class ListerPizzasService extends MenuService {
  		{
  			if(dao.findAllPizzas().get(i) != null)
  			{
- 				//System.out.println(dao.findAllPizzas().get(i).getCode() + "->" + dao.findAllPizzas().get(i).getLibelle() + "(" +  dao.findAllPizzas().get(i).getPrix() + "€) (" + dao.findAllPizzas().get(i).toString() + ")");
- 				System.out.println(dao.findAllPizzas().get(i).toString());
+ 				LOG.info(dao.findAllPizzas().get(i).toString());
  	 			try {
  	 				pg.text(dao.findAllPizzas().get(i).toString());
 				} catch (DocumentException e) {

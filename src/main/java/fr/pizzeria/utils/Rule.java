@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
-public @interface Rule {
-	double min() default 3;
-	
+public @interface Rule 
+{
+	double min() default 3;	
 }

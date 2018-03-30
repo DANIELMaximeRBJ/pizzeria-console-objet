@@ -4,9 +4,13 @@ import fr.pizzeria.exception.*;
 
 import java.util.Scanner;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.pizzeria.model.PizzaMemDao;
 
 public class PizzeriaAdminConsoleApp extends PizzaMemDao {
+	private static final Logger LOG = LoggerFactory.getLogger(PizzeriaAdminConsoleApp.class);
 	
 	public static void main(String[] args) {
 		PizzaMemDao dao = new PizzaMemDao();
@@ -23,43 +27,43 @@ public class PizzeriaAdminConsoleApp extends PizzaMemDao {
 		{
 			rep = questionUser.nextInt();
 			
+			if (rep == 99)
+		 	{
+				LOG.info("\n Aurevoir ☹\n");
+				new AppService().executer("valeur 1");
+				break;
+		 	}
 	 		try 
 	 	 	{
 	 			msf.getInstance(rep).executeUC(dao);
 	 		} 
 	 		catch (StockageException e)
 	 		{
-	 			System.out.println(e.getMessage());
+	 			LOG.info(e.getMessage());
 	 		}
 		 	
 		 	menu();
 		 		
 		 	if 	(rep != 1 && rep != 2 && rep != 3 && rep != 4 && rep != 99)
 		 	{
-		 		System.out.println("\n retapper une valeur correct \n");
+		 		LOG.info("\n retapper une valeur correct \n");
 		 		menu();
 		 	}
 		}
-		if (rep == 99)
-	 	{
-	 		System.out.println("\n Aurevoir ☹\n");
-	 	}
+		
+
 	}
 	
 	public static void menu()
 	{
-		System.out.println("\n");
-		System.out.println("***** Pizzeria Administration ***** \n");
-		
-		System.out.println("1. Lister les pizzas ");
-		System.out.println("2. Ajouter une nouvelle pizza ");
-		System.out.println("3. Mettre à jour une pizza");
-		System.out.println("4. Supprimer une pizza");
-		System.out.println("99. Sortir ");
-
-		
-		
-	 			
+		LOG.info("\n");
+		LOG.info("***** Pizzeria Administration ***** \n");
+		LOG.info("1. Lister les pizzas ");
+		LOG.info("2. Ajouter une nouvelle pizza ");
+		LOG.info("3. Mettre à jour une pizza");
+		LOG.info("4. Supprimer une pizza");
+		LOG.info("99. Sortir ");
+		new AppService().executer("valeur 1");
 	}
 
 }

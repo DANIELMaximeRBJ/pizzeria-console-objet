@@ -1,0 +1,393 @@
+10:57:08.861 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+10:57:08.864 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+10:57:08.864 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+10:57:08.864 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+10:57:08.864 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+10:57:08.864 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+10:57:08.864 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+10:57:17.095 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+10:57:17.098 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+10:57:17.143 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+10:57:17.144 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+10:57:17.144 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+10:57:17.144 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+10:57:17.144 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+10:57:26.801 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+10:57:26.803 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+10:57:26.803 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+10:57:26.803 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+10:57:26.803 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+10:57:26.803 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+10:57:26.803 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+10:58:25.795 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+10:58:25.795 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+10:58:25.795 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+10:58:25.795 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+10:58:25.795 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+10:58:25.795 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+10:58:25.795 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:01:16.764 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:01:16.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:01:16.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:01:16.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:01:16.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:01:16.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:01:16.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:01:16.767 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:01:43.838 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:01:43.840 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:01:43.840 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:01:43.840 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:01:43.840 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:01:43.840 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:01:43.840 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:01:43.841 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:01:47.855 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:01:47.855 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:01:47.855 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:01:47.855 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:01:47.855 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:01:47.855 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:01:47.855 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:01:47.855 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:02:00.044 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:02:00.046 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:02:00.047 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:02:00.047 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:02:00.047 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:02:00.047 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:02:00.047 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:02:00.047 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:02:03.006 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:02:03.006 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:02:03.006 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:02:03.006 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:02:03.006 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:02:03.006 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:02:03.006 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:02:03.006 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:02:40.338 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:02:40.340 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:02:40.340 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:02:40.340 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:02:40.340 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:02:40.341 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:02:40.341 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:02:40.341 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:02:43.297 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:02:43.297 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:02:43.297 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:02:43.297 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:02:43.297 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:02:43.297 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:02:43.297 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:02:43.297 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:02:52.884 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:02:52.886 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:02:52.887 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:02:52.887 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:02:52.887 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:02:52.887 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:02:52.887 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:02:52.887 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:04:01.056 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:04:01.058 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:04:01.058 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:04:01.058 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:04:01.058 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:04:01.058 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:04:01.058 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:04:01.059 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:04:04.137 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:04:04.137 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:04:04.137 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:04:04.138 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:04:04.138 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:04:04.138 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:04:04.138 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:04:04.138 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:16:44.538 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:16:44.538 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:16:44.538 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:16:44.538 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:16:44.538 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:16:44.538 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:16:44.538 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:16:44.538 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:18:58.175 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:18:58.175 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:18:58.175 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:18:58.175 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:18:58.175 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:18:58.175 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:18:58.175 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:18:58.175 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:19:00.019 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:19:00.034 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:19:00.034 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:19:00.034 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:19:00.034 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:19:00.034 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:19:00.034 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:19:00.034 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:19:00.034 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+ Aurevoir ☹
+
+11:19:00.034 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:20:35.667 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:20:35.683 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:20:35.683 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:20:35.683 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:20:35.683 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:20:35.683 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:20:35.683 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:20:35.683 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:20:37.776 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+ Aurevoir ☹
+
+11:20:37.778 [main] DEBUG fr.pizzeria.service.AppService -
+				Traitement 1 : param = valeur 1
+11:27:27.030 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:27:27.030 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:27:27.030 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:27:27.030 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:27:27.030 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:27:27.030 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:27:27.030 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:27:31.594 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Lister les pizzas 
+
+11:27:31.672 [main] INFO  f.p.service.AjouterPizzaService -
+				PEP -> pépéronie (12.5€) (viande)
+11:27:31.734 [main] INFO  f.p.service.AjouterPizzaService -
+				MAR -> margherita (14.0€) (poisson)
+11:27:31.734 [main] INFO  f.p.service.AjouterPizzaService -
+				REIN -> la reine (11.5€) (sans_viande)
+11:27:31.734 [main] INFO  f.p.service.AjouterPizzaService -
+				FRO -> la 4 fromages (12.0€) (sans_viande)
+11:27:31.734 [main] INFO  f.p.service.AjouterPizzaService -
+				CAN -> la cannibale (12.5€) (viande)
+11:27:31.734 [main] INFO  f.p.service.AjouterPizzaService -
+				SAV -> la savoyarde (13.0€) (viande)
+11:27:31.734 [main] INFO  f.p.service.AjouterPizzaService -
+				ORI -> l’orientale (13.5€) (poisson)
+11:27:31.734 [main] INFO  f.p.service.AjouterPizzaService -
+				IND -> l’indienne (14.0€) (sans_viande)
+11:27:31.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:27:31.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:27:31.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:27:31.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:27:31.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:27:31.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:27:31.766 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:27:34.031 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Ajout d’une nouvelle pizza 
+ 
+11:27:34.040 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le code : 
+11:27:38.668 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nom (sans espace) : 
+11:27:41.829 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le prix : 

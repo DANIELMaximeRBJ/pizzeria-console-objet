@@ -17,13 +17,12 @@ public class Pizza {
 	private String libelle;
 	
 	@ToString(separateur = "€) (")
-	@Rule()
+	@Rule(min = 5)
 	private double prix;
 	
 	@ToString(separateur = ")",upperCase = false)
 	private CategoriePizza cp;
 	
-	//StringUtils su = new StringUtils();
 	
 	public Pizza(String code, String libelle, double prix, CategoriePizza cp)
 	{
