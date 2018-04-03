@@ -535,3 +535,302 @@
 				4. Supprimer une pizza
 11:29:45.224 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
 				99. Sortir 
+10:32:03.338 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+10:32:03.338 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+10:32:23.963 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+10:32:23.978 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+10:34:20.872 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+10:34:20.872 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+10:35:54.960 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+10:35:54.960 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+10:41:29.067 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+10:41:29.067 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+10:41:29.067 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+10:41:29.067 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+10:41:29.067 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+10:41:29.067 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+10:43:27.328 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+10:43:27.328 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+10:43:27.328 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+10:43:27.343 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+10:43:27.343 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+10:43:27.343 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+10:44:39.393 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+10:44:39.393 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+10:44:39.393 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+10:44:39.393 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+10:44:39.393 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+10:44:39.393 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+10:45:10.992 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+10:45:10.992 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+10:45:10.992 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+10:45:10.992 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+10:45:10.992 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+10:45:10.992 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+10:59:39.308 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+10:59:39.308 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+10:59:39.308 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+10:59:39.308 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+10:59:39.308 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+10:59:39.308 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+11:00:41.502 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+11:00:41.517 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+11:00:41.517 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+11:00:41.517 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+11:00:41.517 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+11:00:41.517 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+11:12:09.487 [main] INFO  monlogger -
+				Bijour
+11:12:09.877 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+11:12:09.877 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+11:12:09.877 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+11:13:03.395 [main] INFO  monlogger -
+				Bijour
+11:13:03.754 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+11:13:03.754 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+11:13:03.754 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+11:13:03.754 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+11:13:03.754 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+11:13:03.754 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+11:13:30.965 [main] INFO  monlogger -
+				Bijour
+11:13:31.340 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+11:13:31.340 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+11:13:31.340 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+11:13:31.340 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+11:13:31.340 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+11:13:31.340 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+11:14:54.858 [main] INFO  monlogger -
+				Bijour
+11:14:55.295 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+11:14:55.295 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+11:14:55.295 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+11:14:55.295 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+11:14:55.295 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+11:14:55.295 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+11:15:16.567 [main] INFO  monlogger -
+				Bijour
+11:15:16.958 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+11:15:16.958 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+11:15:16.958 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+11:15:16.958 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+11:15:16.958 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+11:15:16.958 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+11:16:54.055 [main] INFO  monlogger -
+				Bijour
+11:17:42.790 [main] INFO  monlogger -
+				Bijour
+11:18:57.903 [main] INFO  monlogger -
+				Bijour
+11:20:01.984 [main] INFO  monlogger -
+				Bijour
+11:22:16.635 [main] INFO  monlogger -
+				Bijour
+11:22:34.288 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Ajout d’une nouvelle pizza 
+ 
+11:22:34.288 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le code : 
+11:22:34.288 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nom (sans espace) : 
+11:28:07.341 [main] INFO  monlogger -
+				Bijour
+11:29:07.435 [main] INFO  monlogger -
+				Bijour
+11:31:35.662 [main] INFO  monlogger -
+				Bijour
+11:31:36.068 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+11:31:36.068 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+11:31:36.068 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+11:31:36.068 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+11:31:36.068 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+11:31:36.068 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 

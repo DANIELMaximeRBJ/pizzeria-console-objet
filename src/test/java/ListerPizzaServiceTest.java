@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 import org.junit.Test;
 
 import fr.pizzeria.exception.StockageException;
@@ -12,6 +14,6 @@ public class ListerPizzaServiceTest {
 		AjouterPizzaService ajps = new AjouterPizzaService();
 		PizzaMemDao pDao = new PizzaMemDao();
 		
-		ajps.executeUC(pDao);
+		ajps.executeUC(pDao, new Scanner(System.in));
 	}
 }

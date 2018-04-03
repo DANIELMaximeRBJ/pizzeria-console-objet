@@ -2,13 +2,14 @@ package fr.pizzeria.service;
 
 
 import java.io.IOException;
+import java.util.Scanner;
 
 import com.itextpdf.text.DocumentException;
 
-import fr.pizzeria.model.PizzaMemDao;
+import fr.pizzeria.model.IPizzaDao;
 public class ListerPizzasService extends MenuService {
 	
-	public void executeUC(PizzaMemDao dao)
+	public void executeUC(IPizzaDao dao, Scanner scanner)
 	{
 	PDFgenerateur pg = new PDFgenerateur();
 	LOG.info("\n Lister les pizzas \n");

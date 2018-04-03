@@ -10,6 +10,8 @@ import fr.pizzeria.service.AjouterPizzaService;
 
 import static org.junit.contrib.java.lang.system.TextFromStandardInputStream.*;
 
+import java.util.Scanner;
+
 public class SupprimerPizzaServiceTest {
 	@Rule
 	public TextFromStandardInputStream systemInMock = emptyStandardInputStream();
@@ -22,7 +24,7 @@ public class SupprimerPizzaServiceTest {
 		
 		try {
 			systemInMock.provideLines("PEP");
-			ajps.executeUC(pDao);
+			ajps.executeUC(pDao, new Scanner(System.in));
 			
 		} catch (Exception e) {
 			fail("Le test est en echec");

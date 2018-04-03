@@ -1,17 +1,19 @@
 package fr.pizzeria.service;
 
+import java.util.Scanner;
+
 import fr.pizzeria.console.CategoriePizza;
 import fr.pizzeria.exception.StockageException;
 import fr.pizzeria.exception.UpdatePizzaException;
+import fr.pizzeria.model.IPizzaDao;
 import fr.pizzeria.model.Pizza;
-import fr.pizzeria.model.PizzaMemDao;
 import fr.pizzeria.utils.Validator;
 
 
 public class ModifierPizzaService extends MenuService 
 {
 
-	public void executeUC(PizzaMemDao dao) throws StockageException   {
+	public void executeUC(IPizzaDao dao, Scanner scanner) throws StockageException   {
 		LOG.info("\n Mise à jour d’une pizza \n");
  		
 		LOG.info("\n Veuillez choisir le code de la pizza à modifier \n");

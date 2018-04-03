@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 import org.junit.Test;
 
 import fr.pizzeria.exception.SavePizzaException;
@@ -11,6 +13,6 @@ public class AjouterPizzaServiceTest {
 		AjouterPizzaService ajps = new AjouterPizzaService();
 		PizzaMemDao pDao = new PizzaMemDao();
 		
-		ajps.executeUC(pDao);
+		ajps.executeUC(pDao, new Scanner(System.in));
 	}
 }

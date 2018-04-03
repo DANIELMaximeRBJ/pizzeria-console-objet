@@ -2,15 +2,17 @@ package fr.pizzeria.service;
 
 
 
+import java.util.Scanner;
+
 import fr.pizzeria.console.CategoriePizza;
 import fr.pizzeria.exception.SavePizzaException;
+import fr.pizzeria.model.IPizzaDao;
 import fr.pizzeria.model.Pizza;
-import fr.pizzeria.model.PizzaMemDao;
 
 public class AjouterPizzaService extends MenuService {
 
 
-	public void executeUC(PizzaMemDao dao) throws SavePizzaException 
+	public void executeUC(IPizzaDao dao, Scanner scanner) throws SavePizzaException 
 	{
 		LOG.info("\n Ajout d’une nouvelle pizza \n ");
 		
