@@ -23,7 +23,8 @@ public class AjouterPizzaService extends MenuService {
  		repPrix = Double.parseDouble(questionUser.next()) ;
  		LOG.info("\n Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON ");
  		repCP = questionUser.next();
- 		CategoriePizza cp = CategoriePizza.valueOf(repCP);
+ 		
+ 		
 	
  		if(dao.pizzaExists(repCode))
 		{
@@ -33,8 +34,12 @@ public class AjouterPizzaService extends MenuService {
 		{
 			throw new SavePizzaException("Prix inférieur à zero");
 		}
- 	
- 		dao.saveNewPizza(new Pizza(repCode,repLibelle,repPrix,cp));
+		if(repCP != null && dao != null)
+ 		{
+ 			CategoriePizza cp = CategoriePizza.valueOf(repCP);
+ 			dao.saveNewPizza(new Pizza(repCode,repLibelle,repPrix,cp));
+ 		}
+ 		
 	}
 
 }

@@ -391,3 +391,147 @@
 11:27:41.829 [main] INFO  f.p.service.AjouterPizzaService -
 				
  Veuillez saisir le prix : 
+11:28:26.499 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:28:26.499 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:28:26.499 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:28:26.499 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:28:26.499 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:28:26.499 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:28:26.499 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:28:27.874 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Ajout d’une nouvelle pizza 
+ 
+11:28:27.888 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le code : 
+11:28:30.514 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nom (sans espace) : 
+11:28:33.456 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le prix : 
+11:28:38.215 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+11:28:42.054 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:28:42.054 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:28:42.057 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:28:42.057 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:28:42.057 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:28:42.057 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:28:42.057 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:29:06.788 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Suppression d’une pizza 
+
+11:29:06.792 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à supprimer 
+
+11:29:11.753 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:29:11.767 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:29:11.767 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:29:11.767 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:29:11.767 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:29:11.767 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:29:11.767 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:29:15.176 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Lister les pizzas 
+
+11:29:15.247 [main] INFO  f.p.service.AjouterPizzaService -
+				PEP -> pépéronie (12.5€) (viande)
+11:29:15.325 [main] INFO  f.p.service.AjouterPizzaService -
+				MAR -> margherita (14.0€) (poisson)
+11:29:15.325 [main] INFO  f.p.service.AjouterPizzaService -
+				REIN -> la reine (11.5€) (sans_viande)
+11:29:15.325 [main] INFO  f.p.service.AjouterPizzaService -
+				FRO -> la 4 fromages (12.0€) (sans_viande)
+11:29:15.325 [main] INFO  f.p.service.AjouterPizzaService -
+				CAN -> la cannibale (12.5€) (viande)
+11:29:15.325 [main] INFO  f.p.service.AjouterPizzaService -
+				SAV -> la savoyarde (13.0€) (viande)
+11:29:15.325 [main] INFO  f.p.service.AjouterPizzaService -
+				ORI -> l’orientale (13.5€) (poisson)
+11:29:15.325 [main] INFO  f.p.service.AjouterPizzaService -
+				IND -> l’indienne (14.0€) (sans_viande)
+11:29:15.357 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:29:15.357 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:29:15.357 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:29:15.357 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:29:15.357 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:29:15.357 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:29:15.357 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 
+11:29:19.763 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Mise à jour d’une pizza 
+
+11:29:19.776 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez choisir le code de la pizza à modifier 
+
+11:29:25.013 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau code : 
+11:29:27.696 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau nom (sans espace) : 
+11:29:32.550 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir le nouveau prix : 
+11:29:38.835 [main] INFO  f.p.service.AjouterPizzaService -
+				
+ Veuillez saisir la catégorie de pizza: VIANDE, SANS_VIANDE, POISSON 
+11:29:45.223 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				
+
+11:29:45.224 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				***** Pizzeria Administration ***** 
+
+11:29:45.224 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				1. Lister les pizzas 
+11:29:45.224 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				2. Ajouter une nouvelle pizza 
+11:29:45.224 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				3. Mettre à jour une pizza
+11:29:45.224 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				4. Supprimer une pizza
+11:29:45.224 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				99. Sortir 

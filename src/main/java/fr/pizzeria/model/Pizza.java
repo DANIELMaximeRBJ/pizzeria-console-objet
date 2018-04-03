@@ -73,5 +73,10 @@ public class Pizza {
 		return prix;
 	}
 	
+	public CategoriePizza getCategoriePizza()
+	{
+		return cp;
+	}
+	
 
 }
