@@ -11,37 +11,37 @@ public class ListerPizzasService extends MenuService {
 	
 	public void executeUC(IPizzaDao dao, Scanner scanner)
 	{
-	PDFgenerateur pg = new PDFgenerateur();
+	//PDFgenerateur pg = new PDFgenerateur();
 	LOG.info("\n Lister les pizzas \n");
- 		try {
+ 		/*try {
  			pg.init();
 		} catch (DocumentException e1) {
 			e1.printStackTrace();
 		} catch (IOException e1) {
 			e1.printStackTrace();
-		}
+		}*/
 		for(int i=0; i < dao.findAllPizzas().size() ; i++)
  		{
  			if(dao.findAllPizzas().get(i) != null)
  			{
  				LOG.info(dao.findAllPizzas().get(i).toString());
- 	 			try {
+ 	 			/*try {
  	 				pg.text(dao.findAllPizzas().get(i).toString());
 				} catch (DocumentException e) {
 					e.printStackTrace();
 				} catch (IOException e) {
 					e.printStackTrace();
-				}
+				}*/
  			}	 
 
  		}
-			try {
+			/*try {
 				pg.close();
 			} catch (DocumentException e) {
 				e.printStackTrace();
 			} catch (IOException e) {
 				e.printStackTrace();
-			}
+			}*/
 	
 	}
 	

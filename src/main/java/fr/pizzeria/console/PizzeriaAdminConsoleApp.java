@@ -7,13 +7,14 @@ import java.util.Scanner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.pizzeria.model.PizzaMemDao;
+import fr.pizzeria.model.PizzaDB;
 
-public class PizzeriaAdminConsoleApp extends PizzaMemDao {
+
+public class PizzeriaAdminConsoleApp extends PizzaDB {
 	private static final Logger LOG = LoggerFactory.getLogger(PizzeriaAdminConsoleApp.class);
 	
 	public static void main(String[] args) {
-		PizzaMemDao dao = new PizzaMemDao();
+		PizzaDB dao = new PizzaDB();
 		@SuppressWarnings("resource")
 		Scanner questionUser = new Scanner(System.in) ;
 			
@@ -35,7 +36,7 @@ public class PizzeriaAdminConsoleApp extends PizzaMemDao {
 		 	}
 	 		try 
 	 	 	{
-	 			msf.getInstance(rep).executeUC(dao);
+	 			msf.getInstance(rep).executeUC(dao, new Scanner(System.in));
 	 		} 
 	 		catch (StockageException e)
 	 		{

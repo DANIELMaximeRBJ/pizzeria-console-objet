@@ -3,11 +3,11 @@ package fr.pizzeria.model;
 import java.util.ArrayList;
 
 import java.util.List;
-import java.util.Optional;
 
 import fr.pizzeria.console.CategoriePizza;
 
 public class PizzaMemDao implements IPizzaDao {
+	
 	private List<Pizza> liste = new ArrayList<>();
 	public int nbTab = 0;
 
